@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Generator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Random Number Generator</h1>
+
+        <div class="input-group">
+            <label for="min">Min value:</label>
+            <input type="number" name="min" id="min" required>
+            
+            <label for="max">Max value:</label>
+            <input type="number" name="max" id="max" required>
+            
+            <button type="submit" class="btn" id="button">Submit</button>
+        </div>
+
+        <div class="result-box">
+            <p id="result">Your random value from the selected range is ${random value}</p>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
